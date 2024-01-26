@@ -27,3 +27,25 @@ a{
     color:inherit;
     text-decoration: none;
 }
+
+.header{
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns:1fr 3fr 2.2rem;
+    padding: 0 60px;
+    align-items: center
+}
+
+.header__logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.header__nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding-right: 2rem;
+}
