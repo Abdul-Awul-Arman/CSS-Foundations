@@ -1,0 +1,29 @@
+@font-face {
+    font-family: inter;
+    src: url(/font/Inter-Regular.ttf);
+    font-weight: 100-900;
+
+}
+@font-face {
+    font-family: inter-bold;
+    src: url(font/Inter-Bold.ttf);
+    font-weight: 100-900;
+}
+
+:root{
+    --Color-Primary-Color:#FF7B54;
+    --Color-Secondary-Color:#fff;
+    --Font:inter;
+}
+
+
+body{
+    background-color:var(--Color-Primary-Color);
+    color:var(--Color-Secondary-Color);
+    font-family: var(--Font);
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
