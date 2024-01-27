@@ -14,6 +14,11 @@
     --Color-Primary-Color:#FF7B54;
     --Color-Secondary-Color:#fff;
     --Font:inter;
+    --Color-Button:var(--Color-Secondary-Color);
+}
+
+p{
+    margin:0;
 }
 
 

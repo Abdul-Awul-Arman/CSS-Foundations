@@ -1,1 +1,51 @@
 @import url(/style/base.css);
+
+.main__heading{
+    font-size: 128px;
+    font-weight: 700;
+}
+
+.main{
+    padding:150px;
+}
+
+.main_subheading{
+    font-size: 40px;
+}
+
+.button{
+    box-sizing: border-box;
+    font-size:2rem ;
+    margin-top: 100px;
+    height: 100px;
+    padding: 0 4rem;
+    border: 4px solid var(--Color-Secondary-Color);
+    font-weight: 600;
+    background-color: var(--Color-Secondary-Color);
+    color: var(--Color-Primary-Color);
+    cursor: pointer;
+    transition: outline .2s linear;
+}
+
+.button:not(.button:last-child){
+    margin-right: 20px;
+
+}
+
+.button:last-child{
+    background-color: var(--Color-Primary-Color);
+    color:var(--Color-Secondary-Color)
+}
+
+.button:hover,.button:focus{
+    outline: 4px solid var(--Color-Secondary-Color);
+}
+
+.arrow{
+    vertical-align: middle;
+}
+
+.button-wraper{
+    display: flex;
+    align-items: center;
+}
