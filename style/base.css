@@ -13,19 +13,29 @@
 :root{
     --Color-Primary-Color:#FF7B54;
     --Color-Secondary-Color:#fff;
+    --Colo-Primary-page:#FF7B54;
+    --Color-Secondary-page:#fff;
     --Font:inter;
     --Color-Button:var(--Color-Secondary-Color);
 }
 
-p{
+h2,p{
     margin:0;
 }
 
 
 body{
-    background-color:var(--Color-Primary-Color);
-    color:var(--Color-Secondary-Color);
     font-family: var(--Font);
+}
+
+.home-body{
+     background-color:var(--Color-Primary-Color);
+    color:var(--Color-Secondary-Color);
+}
+
+.speakers-body{
+    background-color: var(--Color-Secondary-page);
+    color: var(--Colo-Primary-page);
 }
 
 a{
@@ -35,10 +45,9 @@ a{
 
 .header{
     display: grid;
-    /* background-color: red; */
     grid-template-columns:1fr 3fr 2.2rem;
     padding: 0 60px;
-    align-items: center
+    align-items: center;
 }
 
 .header__logo{
@@ -53,4 +62,8 @@ a{
     gap: 2rem;
     font-size: 1.1rem;
     padding-right: 2rem;
+}
+
+.main{
+    padding: 150px;
 }
