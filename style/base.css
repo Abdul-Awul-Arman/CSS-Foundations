@@ -16,11 +16,13 @@
     --Colo-Primary-page:#FF7B54;
     --Color-Secondary-page:#fff;
     --Font:inter;
+    --Color-Speaker--Company:#000;
     --Color-Button:var(--Color-Secondary-Color);
 }
 
 h2,p{
     margin:0;
+    margin-bottom: 4rem;
 }
 
 
@@ -67,3 +69,4 @@ a{
 .main{
     padding: 150px;
 }
+
