@@ -1,7 +1,11 @@
 @import url(/style/base.css);
 
+.header__menu{
+    display: none;
+}
+
 .main__heading{
-    font-size: 128px;
+    font-size: 120px;
     font-weight: 700;
 }
 .main_subheading{
@@ -85,8 +89,15 @@
 }
 
 @media all and (max-width:400px) {
+
+    .header__logo{
+        font-size: 20px;
+    }
+    .header__nav{
+        display: none;
+    } 
     .main__heading{
-        font-size: 32px;
+        font-size: 35px;
         margin-bottom: 30px;
     }
 
@@ -104,5 +115,21 @@
 
     .button img{
         width: 15px;
+    }
+
+    .header{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 33px 1fr 34px;
+        padding: 25px;
+        justify-items:center;
+    }
+    .main{
+        padding: 50px;
+        width: 100%;
+    }
+
+    .header__menu{
+        display: block;
     }
 }

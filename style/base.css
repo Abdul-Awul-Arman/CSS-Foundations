@@ -20,6 +20,12 @@
     --Color-Button:var(--Color-Secondary-Color);
 }
 
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h2,p{
     margin:0;
     margin-bottom: 4rem;
@@ -48,8 +54,10 @@ a{
 .header{
     display: grid;
     grid-template-columns:1fr 3fr 2.2rem;
-    padding: 0 60px;
+    padding: 20px 60px;
     align-items: center;
+    width: 1200px;
+    margin-inline:auto;
 }
 
 .header__logo{
@@ -68,5 +76,7 @@ a{
 
 .main{
     padding: 150px;
+    width: 1200px;
+    margin-inline: auto;
 }
 
