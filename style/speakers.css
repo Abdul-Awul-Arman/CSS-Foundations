@@ -51,8 +51,16 @@
   stroke: #FF7B54;
 }
 
-@media all and (max-width:700px) {
+.main_title {
+  margin-bottom: 60px;
+}
 
+@media all and (max-width:700px) {
+ 
+  .main_title {
+      margin-bottom: 60px;
+      margin-left: 30px;
+    }
   .container {
     grid-template-columns: 1fr;
   }
@@ -106,9 +114,15 @@ label {
   }
 
   .main {
-    padding: 50px;
     width: 100%;
+    padding: 0;
   }
+
+    .speaker{
+      display: block;
+      width:320px;
+      margin-inline: auto;
+    }
 
   .header__menu {
     display: block;
@@ -138,15 +152,8 @@ label {
     font-size: 50px;
   }
 
-  .speaker {
-    max-width: 200px;
-  }
-
   header__nav-ul {
     color: white;
   }
 
-    .speaker_photo{
-      width: 130%;
-    }
 }
